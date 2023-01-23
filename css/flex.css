@@ -3,9 +3,34 @@
 .flex-container {
   background-color: lightblue;
   border: 1px dashed rgb(78, 78, 78);
+  min-height: 20rem;
+  /* ijungiam flex */
+  display: flex;
+  /* align-items: flex-start; */
+  /* isdestymas pagrindine kryptinis */
+  justify-content: flex-start;
+  /* justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly; */
+  /* keisti krypti */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+
+  /* jei neisitenka perkelti i nauja eilute */
+  flex-wrap: wrap;
+
+  gap: 1rem;
+  /* row-gap: 3rem; */
 }
 
 .flex-item {
-  border: 1px solid rgb(246, 116, 116);
+  border: 1px solid rgb(63, 64, 63);
   background-color: lightcoral;
+  padding: 0.8rem 1.1rem;
+  /* pasidalintu vieta po lygiai 25% */
+  width: 50%;
+  /* min-height: 10rem; */
+  width: calc(50% - 0.5rem);
 }
