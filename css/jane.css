@@ -1,6 +1,7 @@
 /* common styles */
 body {
   font-family: 'Oswald', sans-serif;
+  background-color: #ededed;
 }
 
 .unlisted {
@@ -67,7 +68,31 @@ body {
 h1 {
   font-size: 6.4rem;
   margin-bottom: 0;
+  font-weight: 500;
 }
 h1 span {
   display: block;
+  font-size: 3.6rem;
+  font-weight: normal;
+}
+
+/* content */
+
+.content {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+main {
+  min-width: 65rem;
+}
+
+aside {
+  /* jei yra tuscios vietos - pleskis */
+  flex-grow: 1;
+}
+
+/* article */
+.main-article {
+  background-color: white;
 }

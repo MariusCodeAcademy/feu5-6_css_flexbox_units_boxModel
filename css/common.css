@@ -47,3 +47,14 @@ a {
   /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
   margin: 0 auto;
 }
+
+/* utility classes */
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+  align-items: center;
+}
