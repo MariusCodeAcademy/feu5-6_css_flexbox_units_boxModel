@@ -84,7 +84,7 @@ h1 span {
   padding: 2rem;
 }
 main {
-  min-width: 65rem;
+  max-width: 65rem;
 }
 
 aside {
@@ -95,4 +95,21 @@ aside {
 /* article */
 .main-article {
   background-color: white;
+  padding: 2rem;
+}
+.article-title {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin-bottom: 0.3em;
+  font-weight: normal;
+}
+
+.like-btn {
+  background-color: transparent;
+  font-size: 1.6rem;
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+}
+.like-btn:hover {
+  background-color: #ccc;
 }
