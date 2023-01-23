@@ -32,5 +32,10 @@
   /* pasidalintu vieta po lygiai 25% */
   width: 50%;
   /* min-height: 10rem; */
-  width: calc(50% - 0.5rem);
+  width: calc(33% - 0.5rem);
+}
+
+.some-item {
+  align-self: stretch;
+  width: 100%;
 }
