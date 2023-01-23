@@ -1,0 +1,11 @@
+/* flex */
+
+.flex-container {
+  background-color: lightblue;
+  border: 1px dashed rgb(78, 78, 78);
+}
+
+.flex-item {
+  border: 1px solid rgb(246, 116, 116);
+  background-color: lightcoral;
+}
