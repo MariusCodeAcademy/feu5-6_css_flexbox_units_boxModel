@@ -113,3 +113,7 @@ aside {
 .like-btn:hover {
   background-color: #ccc;
 }
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+}
