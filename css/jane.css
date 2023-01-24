@@ -117,3 +117,28 @@ aside {
 .text {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* Aside =============================== */
+
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about h3 {
+  font-size: 2rem;
+  padding: 0.4em 0 0.8em;
+  margin-bottom: 0;
+}
+.about h3,
+.about .text {
+  background-color: #000000;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.about :last-child {
+  padding-bottom: 2rem;
+}
